@@ -4,9 +4,9 @@
 	else if(typeof define === 'function' && define.amd)
 		define([], factory);
 	else if(typeof exports === 'object')
-		exports["coco-global-banner.0.0.1"] = factory();
+		exports["coco-global-banner2.0.0.1"] = factory();
 	else
-		root["coco-global-banner.0.0.1"] = factory();
+		root["coco-global-banner2.0.0.1"] = factory();
 })((typeof self !== 'undefined' ? self : this), function() {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -96,10 +96,10 @@ return /******/ (function(modules) { // webpackBootstrap
 /************************************************************************/
 /******/ ({
 
-/***/ "1312":
-/***/ (function(module) {
+/***/ "702f":
+/***/ (function(module, exports, __webpack_require__) {
 
-module.exports = JSON.parse("{\"name\":\"coco-global-banner\",\"description\":\"banner组件1\",\"version\":\"0.0.1\",\"snapshot\":\"https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png\",\"schema\":{\"type\":\"object\",\"properties\":{\"src\":{\"title\":\"图片地址\",\"type\":\"string\",\"format\":\"image\"},\"link\":{\"title\":\"跳转链接\",\"type\":\"string\",\"format\":\"url\"}},\"required\":[\"src\"]},\"data\":{\"src\":\"https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png\"}}");
+// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -188,14 +188,21 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 
 /***/ }),
 
-/***/ "b974":
+/***/ "9b58":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("fbe8");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("702f");
 /* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
 /* unused harmony reexport * */
 
+
+/***/ }),
+
+/***/ "dc7b":
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"name\":\"coco-global-banner2\",\"description\":\"banner组件2\",\"version\":\"0.0.1\",\"snapshot\":\"https://img.alicdn.com/imgextra/i2/O1CN011OBgOQ1lgQnWNjjtA_!!6000000004848-0-tps-750-291.jpg\",\"schema\":{\"type\":\"object\",\"properties\":{\"src\":{\"title\":\"图片地址\",\"type\":\"string\",\"format\":\"image\"},\"link\":{\"title\":\"跳转链接\",\"type\":\"string\",\"format\":\"url\"}},\"required\":[\"src\"]},\"data\":{\"src\":\"https://img.alicdn.com/imgextra/i2/O1CN011OBgOQ1lgQnWNjjtA_!!6000000004848-0-tps-750-291.jpg\"}}");
 
 /***/ }),
 
@@ -207,8 +214,8 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 __webpack_require__.r(__webpack_exports__);
 
 // EXPORTS
-__webpack_require__.d(__webpack_exports__, "Component", function() { return /* reexport */ coco_global_banner; });
-__webpack_require__.d(__webpack_exports__, "config", function() { return /* reexport */ coco_global_banner_package; });
+__webpack_require__.d(__webpack_exports__, "Component", function() { return /* reexport */ coco_global_banner2; });
+__webpack_require__.d(__webpack_exports__, "config", function() { return /* reexport */ coco_global_banner2_package; });
 
 // CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/setPublicPath.js
 // This file is imported into lib/wc client bundles.
@@ -234,14 +241,14 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"41d29bfe-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./packages/coco-global-banner/index.vue?vue&type=template&id=afdedf8e&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"41d29bfe-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./packages/coco-global-banner2/index.vue?vue&type=template&id=313ea781&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('a',{attrs:{"href":_vm.obj.link}},[_c('img',{staticClass:"global-banner",attrs:{"src":_vm.obj.src,"alt":"图片"}})])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./packages/coco-global-banner/index.vue?vue&type=template&id=afdedf8e&
+// CONCATENATED MODULE: ./packages/coco-global-banner2/index.vue?vue&type=template&id=313ea781&
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./packages/coco-global-banner/index.vue?vue&type=script&lang=js&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./packages/coco-global-banner2/index.vue?vue&type=script&lang=js&
 //
 //
 //
@@ -253,7 +260,7 @@ var staticRenderFns = []
 //
 //
 
-/* harmony default export */ var coco_global_bannervue_type_script_lang_js_ = ({
+/* harmony default export */ var coco_global_banner2vue_type_script_lang_js_ = ({
   name: 'banner',
   props: {
     obj: {
@@ -263,10 +270,10 @@ var staticRenderFns = []
   }
 });
 
-// CONCATENATED MODULE: ./packages/coco-global-banner/index.vue?vue&type=script&lang=js&
- /* harmony default export */ var packages_coco_global_bannervue_type_script_lang_js_ = (coco_global_bannervue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./packages/coco-global-banner/index.vue?vue&type=style&index=0&lang=css&
-var coco_global_bannervue_type_style_index_0_lang_css_ = __webpack_require__("b974");
+// CONCATENATED MODULE: ./packages/coco-global-banner2/index.vue?vue&type=script&lang=js&
+ /* harmony default export */ var packages_coco_global_banner2vue_type_script_lang_js_ = (coco_global_banner2vue_type_script_lang_js_); 
+// EXTERNAL MODULE: ./packages/coco-global-banner2/index.vue?vue&type=style&index=0&lang=css&
+var coco_global_banner2vue_type_style_index_0_lang_css_ = __webpack_require__("9b58");
 
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
 /* globals __VUE_SSR_CONTEXT__ */
@@ -368,7 +375,7 @@ function normalizeComponent (
   }
 }
 
-// CONCATENATED MODULE: ./packages/coco-global-banner/index.vue
+// CONCATENATED MODULE: ./packages/coco-global-banner2/index.vue
 
 
 
@@ -378,7 +385,7 @@ function normalizeComponent (
 /* normalize component */
 
 var component = normalizeComponent(
-  packages_coco_global_bannervue_type_script_lang_js_,
+  packages_coco_global_banner2vue_type_script_lang_js_,
   render,
   staticRenderFns,
   false,
@@ -388,17 +395,17 @@ var component = normalizeComponent(
   
 )
 
-/* harmony default export */ var coco_global_banner = (component.exports);
-// EXTERNAL MODULE: ./packages/coco-global-banner/package.json
-var coco_global_banner_package = __webpack_require__("1312");
+/* harmony default export */ var coco_global_banner2 = (component.exports);
+// EXTERNAL MODULE: ./packages/coco-global-banner2/package.json
+var coco_global_banner2_package = __webpack_require__("dc7b");
 
-// CONCATENATED MODULE: ./packages/coco-global-banner/index.js
+// CONCATENATED MODULE: ./packages/coco-global-banner2/index.js
 
 
 
 // 为组件提供 install 安装方法，供按需引入
-coco_global_banner.install = function (Vue) {
-  Vue.component(`${coco_global_banner_package.name}.${coco_global_banner_package.version}`, coco_global_banner);
+coco_global_banner2.install = function (Vue) {
+  Vue.component(`${coco_global_banner2_package.name}.${coco_global_banner2_package.version}`, coco_global_banner2);
 };
 
 // 默认导出组件
@@ -409,15 +416,8 @@ coco_global_banner.install = function (Vue) {
 
 
 
-/***/ }),
-
-/***/ "fbe8":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-
 /***/ })
 
 /******/ });
 });
-//# sourceMappingURL=coco-global-banner.0.0.1.umd.js.map
+//# sourceMappingURL=coco-global-banner2.0.0.1.umd.js.map

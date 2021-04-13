@@ -90,7 +90,7 @@ module.exports =
 /***/ "1312":
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"name\":\"coco-global-banner\",\"description\":\"banner组件\",\"version\":\"0.0.1\",\"snapshot\":\"https://cdn.img/banner.png\",\"schema\":{\"type\":\"object\",\"properties\":{\"src\":{\"title\":\"图片地址\",\"type\":\"string\",\"format\":\"image\"},\"link\":{\"title\":\"跳转链接\",\"type\":\"string\",\"format\":\"url\"}},\"required\":[\"src\"]}}");
+module.exports = JSON.parse("{\"name\":\"coco-global-banner\",\"description\":\"banner组件1\",\"version\":\"0.0.1\",\"snapshot\":\"https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png\",\"schema\":{\"type\":\"object\",\"properties\":{\"src\":{\"title\":\"图片地址\",\"type\":\"string\",\"format\":\"image\"},\"link\":{\"title\":\"跳转链接\",\"type\":\"string\",\"format\":\"url\"}},\"required\":[\"src\"]},\"data\":{\"src\":\"https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png\"}}");
 
 /***/ }),
 
